@@ -10,9 +10,12 @@ if(apples > oranges){
     console.log( "I have more oranges than apples")
 }
 
-const juiceMaker = (apples,oranges) => apples * oranges  
-const juiceMaker = (apples,oranges) => {
-    return apples * oranges
-} 
-juiceMaker( 3,4)
-console.log(juice(3,4)) 
+// const juiceMaker = (apples,oranges) => apples * oranges  
+// const juiceMaker = (apples,oranges) => {
+//     return apples * oranges
+// } 
+// juiceMaker( 3,4)
+// console.log(juice(3,4)) 
+
+const pizzaCutter = (pie,slices) => pie * slices
+console.log(`Firman east ${pizzaCutter(12,8)} slices of pizza`)
